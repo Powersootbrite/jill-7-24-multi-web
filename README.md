@@ -9,3 +9,5 @@ gh auth login
 git config user.name "powersootbrite"
 git config user.email "sootpower3@gmail.com"
 git push -u origin main
+
+git add .
