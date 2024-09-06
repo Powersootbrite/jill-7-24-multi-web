@@ -14,3 +14,11 @@ git commit -m
 
 //view the value of origin
 git remote -v
+
+git remote set-url origin https://github.com/Powersootbrite/jill-multi-page-wabhgfbcfntensjmtgzsazrsettykthk.git
+
+//gitACTIUVATE OR INTIALIZE SOURCE CONTROL
+git init
+
+//RENAMES CURRENT BRANCH TO MAIN
+git 
