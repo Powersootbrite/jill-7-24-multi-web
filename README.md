@@ -30,3 +30,6 @@ git branch -M main
 git add .
 git commit -m
 git push
+
+//PUSHES CHANGES TO THE ORIGINS MAIN BRANCH AND SAVES PARAMETERS
+git push -u origin main
