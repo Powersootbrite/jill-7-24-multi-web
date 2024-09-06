@@ -7,3 +7,10 @@ git remote add origin https://github.com/Powersootbrite/jill-multi-page-wabhgfbc
 curl -sS https://webi.sh/gh | sh
 gh auth login
 git push -u origin main
+
+
+//create a save point and attach memo to it
+git commit -m
+
+//view the value of origin
+git remote -v
