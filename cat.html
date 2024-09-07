@@ -22,24 +22,18 @@
       </nav>
     </header>
   <script> 
-    function display2(myMessage) {
-    
-    //STEP: Let it display the message.
-    //PSEUDO: Display myMessage
+    function display(myMessage) {
+
     document.write(myMessage);
   }
    function ask() {
-    //STEP: Let it prompt the user with "Enter your name." Store in userName.
-    //PSEUDO: userName = prompt("Enter your name.")
-    userName = prompt("Enter your zipcode.");
+    zipCode = prompt("Enter your Zipcode.");
 
-    //STEP: Send out userName.
-    //PSEUDO: Return userName
-    return userName;
+    return zipCode;
   }</script>
   <script>
      name = ask();
-  display2("We are sorry, but " + name + " has no available spots at this time "+". <br>");
+  display("We are sorry, but " + name + " has no available spots at this time "+". <br>");
 
   </script>
   </body>
