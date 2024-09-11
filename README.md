@@ -1,4 +1,4 @@
-echo "# jill-multi-page-wabhgfbcfntensjmtgzsazrsettykthk" >> README.md
+git commit-echo "# jill-multi-page-wabhgfbcfntensjmtgzsazrsettykthk" >> README.md
 git init
 git add README.md
 git config user.name "powersootbrite"
