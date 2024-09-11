@@ -33,6 +33,12 @@ const card1 = {};
   card3.title = "cats"
   card3.description = "there are some cats"
   
+  const cards = [card1, card2, card3];
+  for (position = 0; position < cards.length; position++) {
+    const card = cards[position];
+    const cardString = convertCard( card );
+    mainTag.innerHTML = mainTag.innerHTML + cardString;
+  }
   const card1String = convertCard( card1 );
   const card2String = convertCard( card2 );
   const card3String = convertCard( card3 );
