@@ -4,3 +4,20 @@
 .border-dotted {
   border-style: dotted !important;
 }
+
+body {
+  background-color: aliceblue;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.solid-border {
+  border-style: solid;
+}
+h3:hover {
+  background-color:blue;
+  font-size: 25px;
+}
