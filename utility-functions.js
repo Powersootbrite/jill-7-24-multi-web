@@ -8,3 +8,4 @@ function convertCard(cardObject) {
   cardString += "</div>";
   return cardString;
 }
+ 

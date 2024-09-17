@@ -7,6 +7,7 @@
 
 body {
   background-color: aliceblue;
+  color: white
 }
 .italic {
   font-style: italic;
@@ -19,3 +20,4 @@ h3:hover {
   background-color:blue;
   font-size: 25px;
 }
+
