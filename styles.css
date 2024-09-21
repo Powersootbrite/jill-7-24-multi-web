@@ -1,23 +1,43 @@
+
+body {
+  background-color:#4d4dff;
+}
+
+h3 {padding: 50px;
+  background-color:	#5e0080;
+  border-style: solid;
+  border-top-color: #ff66cc;
+    color: #FFDEAD;
+  }
+h1 {
+  background-color:#99004d
+  
+}
+
+h2{
+  background-color: powderblue
+  
+}
+
+p {
+  color: #FFDEAD;
+  font-family: serif;
+  font-size: 22px;
+  background-color: #5e0080
+}
 .border-dashed {
   border-style: dashed !important;
 }
+
 .border-dotted {
   border-style: dotted !important;
 }
 
-body {
-  background-color: aliceblue;
-  color: white
-}
-.italic {
-  font-style: italic;
-}
-.bold {
-  font-weight: bold;
+ul {
+   background-color:#99004d
+  
 }
 
-h3:hover {
-  background-color:blue;
-  font-size: 25px;
+h1:hover {
+  font-size: 67px;
 }
-
