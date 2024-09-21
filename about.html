@@ -48,15 +48,15 @@
         card3.title = "Parking Place at the greatest parking place! ";
         card3.description = "Paradise Parkers";
 
-        const cards = [card1, card2, card3];
-        for (position = 0; position < cards.length; position++) {
-          const card = cards[position];
-          const cardString = convertCard(card);
-          mainTag.innerHTML = mainTag.innerHTML + cardString;
-        }
-        // const card1String = convertCard( card1 );
-        // const card2String = convertCard( card2 );
-        // const card3String = convertCard( card3 );
+        // const cards = [card1, card2, card3];
+        // for (position = 0; position < cards.length; position++) {
+        //   const card = cards[position];
+        //   const cardString = convertCard(card);
+        //   mainTag.innerHTML = mainTag.innerHTML + cardString;
+        // }
+        const card1String = convertCard( card1 );
+        const card2String = convertCard( card2 );
+        const card3String = convertCard( card3 );
 
         mainTag.innerHTML = mainTag.innerHTML + card1String;
         mainTag.innerHTML = mainTag.innerHTML + card2String;
