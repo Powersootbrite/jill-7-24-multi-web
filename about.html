@@ -44,16 +44,16 @@
 
         const card3 = {};
         card3.src =
+
+        const cards = [card1, card2, card3];
+        for (position = 0; position < cards.length; position++) {
+          const card = cards[position];
+          const cardString = convertCard(card);
+          mainTag.innerHTML = mainTag.innerHTML + cardString;
           "https://cdn.glitch.global/7b0247e2-bf85-4ecb-8f0f-a6d27beeacf2/b7918603271e3f85e81c1fb4cbcd8807.jpg?v=1726056526878";
         card3.title = "Parking Place at the greatest parking place! ";
         card3.description = "Paradise Parkers";
-
-        // const cards = [card1, card2, card3];
-        // for (position = 0; position < cards.length; position++) {
-        //   const card = cards[position];
-        //   const cardString = convertCard(card);
-        //   mainTag.innerHTML = mainTag.innerHTML + cardString;
-        // }
+        }
         const card1String = convertCard( card1 );
         const card2String = convertCard( card2 );
         const card3String = convertCard( card3 );
