@@ -8,4 +8,9 @@ function convertCard(cardObject) {
   cardString += "</div>";
   return cardString;
 }
- 
+function createCards (card1, card2, card3) {
+  let cardString = convertCard( card1 );
+  cardString += convertCard( card2 );
+  cardString += convertCard( card3 );
+  
+}
