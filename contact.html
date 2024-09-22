@@ -8,8 +8,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script src="utility-functions.js"></script>
+    <link href="styles.css" rel="stylesheet" />
   </head>
-  <body class="bg bg-dark text-white">
+  <body class="bg bg-dark">
+    <header>
     <img
       class="border border-5"
       width="100%"
@@ -17,34 +20,51 @@
       alt="parkinglot"
       src="https://cdn.glitch.global/7b0247e2-bf85-4ecb-8f0f-a6d27beeacf2/SEC0216-parking-feature-slide5_900px.jpg?v=1726056485855"
     />
-    <header>
       <nav class="nav nav-pills nav justify-content-end bg bg-white">
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="gallery.html">Gallery</a>
-        <a class="nav-link active" href="contact.html">Contact</a>
-        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link active" href="about.html">About Us</a>
       </nav>
+      <script>
+        function listSpots() {
+          allSpots = [
+            "Valet available",
+          "Parallel unavailable",
+          "Short-term available",
+          "Long-term available",
+          "D.I.Y unavailable",
+          "Climate controlled unavailable",
+          "Party buses and V.I.P unavailable",
+        ];
+          for (position = 0; position < allSpots.length; position++) {
+            listSpots = allSpots[position];
+            spotsTag.innerHTML =
+              spotsTag.innerHTML +
+              '<li class="list-group-item">' +
+              listSpots +
+              "</li>";
+          }
+        }
+      </script>
     </header>
     <main>
-      <a href="cat.html"
-        ><span
-          class="btn btn-sm bg-light border border-5"
-          style="color: #ca8bf5"
-          >CLICK FOR YOUR SPOT</span
-        >
-      </a>
-
-      
-      <h2>Contact Us</h2>
-      <form>
-        <p>
-          Your email<br />
-          <input type="text" />
-        </p>
-        <p>Comments<br /><textarea>WRITE WHAT YOU LIKE ABOUT US</textarea></p>
-        <button>Submit</button>
-      </form>
+      <p></p>
+      <div id="outputTag"></div>
+      <button onclick="listSpots()">Click to see spots in your area</button>
+      <ul id="spotsTag" class="list-group">
+    <li class="list-group-item text-center fw-bold">𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆</li>
+      </ul>
     </main>
-    <footer>Websyte Lyte</footer>
   </body>
 </html>
+<h2>Contact Us</h2>
+<form>
+  <p>
+    Your email<br />
+    <input type="text" />
+  </p>
+  <p>Comments<br /><textarea>WRITE WHAT YOU LIKE ABOUT US</textarea></p>
+  <button>Submit</button>
+</form>
+    
