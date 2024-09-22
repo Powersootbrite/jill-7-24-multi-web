@@ -8,4 +8,21 @@ function convertCard(cardObject) {
   cardString += "</div>";
   return cardString;
 }
- 
+
+let cards = [
+  {
+    src: "images/1.jpg",
+    title: "Card 1",
+    description: "This is card 1",
+  },
+  {
+    src: "images/2.jpg",
+    title: "Card 2",
+    description: "This is card 2",
+  },
+  {
+    src: "images/3.jpg",
+    title: "Card 3",
+    description: "This is card 3",
+  },
+];
