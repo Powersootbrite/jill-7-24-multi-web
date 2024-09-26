@@ -22,7 +22,7 @@ function convertCard(cardObject) {
 
   const cardString = `
     <div class="card">
-      <img class="card-image-top" src="${src}" alt="${title}">
+      <img class="card-image-top" src="${src}">
       <div class="card-body">
         <h3 class="card-title">${title}</h3>
         <p>${description}</p>

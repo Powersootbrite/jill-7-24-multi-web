@@ -9,12 +9,7 @@ body {
   background-color: aliceblue;
   color: white
 }
-.italic {
-  font-style: italic;
-}
-.bold {
-  font-weight: bold;
-}
+
 
 h3:hover {
   background-color:blue;
