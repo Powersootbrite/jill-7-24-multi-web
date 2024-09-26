@@ -55,6 +55,64 @@
       <ul id="spotsTag" class="list-group">
     <li class="list-group-item text-center fw-bold">𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆𒅒𒈔𒅒𒇫𒄆</li>
       </ul>
+      
+      <script>
+      function display2(myMessage) {
+    
+    //STEP: Let it display the message.
+    //PSEUDO: Display myMessage
+    document.write(myMessage);
+  }
+
+  
+  
+  
+//STEP: Create command called ask. Let is accept a message.
+  //PSEUDO: Create command called ask with myMessage
+  function ask3(myMessage) {
+    
+    //STEP: Let it prompt the user with that message. Store it in userText.
+    //PSEUDO: userText = prompt(myMessage)
+    userText = prompt(myMessage);
+
+    //STEP: Convert userText to a number. Store in userNumber.
+    //PSEUDO: userNumber = Number(userText)
+    userNumber = Number(userText);
+
+    //STEP: Compare is userNumber equal to NaN. Store it in result.
+    //PSEUDO: isNaN = userNumber === NaN
+    isNotNumber = isNaN(userNumber);
+
+    //STEP: If result is "yes"
+    //PSEUDO: if isNaN
+    if (isNotNumber) {
+      
+      //STEP:  Send out userText.
+      //PSEUDO: return userText
+      return userText;
+
+      //STEP:  Otherwise
+      //PSEUDO: otherwise
+    } else {
+      
+      //STEP: Send out userNumber.
+      //PSEUDO: Return userNumber
+      return userNumber;
+    }
+  }
+  
+
+</script>
+<script>
+ myInput = ask3("enter your zip code.");
+  display2("You typed " + myInput + ". ");
+  display2("The data type is " + typeof myInput + ". <br>")
+
+    </script>
+      
+      
+      
+      
 <h2>Contact Us</h2>
 <form>
   <label for="email>">Email</label><br>
