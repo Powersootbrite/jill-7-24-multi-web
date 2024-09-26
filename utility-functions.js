@@ -52,5 +52,3 @@ function convertCard(cardObject) {
 
   return cardString;
 }
-
-      
