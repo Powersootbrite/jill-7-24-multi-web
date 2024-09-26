@@ -17,6 +17,26 @@
         //   mainTag.innerHTML = mainTag.innerHTML + cardString;
         // }
  
+        const card1 = {};
+        card1.src =
+          "https://cdn.glitch.global/7b0247e2-bf85-4ecb-8f0f-a6d27beeacf2/Large-Parking-Lot-Commercial-Paving.jpg?v=1726056561723";
+        card1.title = "We have the best spaces!";
+        card1.description = "Voted #1 in Parking Times Magazine.";
+
+        const card2 = {};
+        card2.src =
+          "https://cdn.glitch.global/7b0247e2-bf85-4ecb-8f0f-a6d27beeacf2/590ef44cf89729ee34ba27e3d990ec52.jpg?v=1726056515009";
+        card2.title = "Our customer service can't be beat!";
+        card2.description = "Community Choice Awards winner 3 years in a row!";
+
+        const card3 = {};
+        card3.src =
+          "https://cdn.glitch.global/7b0247e2-bf85-4ecb-8f0f-a6d27beeacf2/b7918603271e3f85e81c1fb4cbcd8807.jpg?v=1726056526878";
+        card3.title = "Parking Place at the greatest parking place! ";
+        card3.description = "Paradise Parkers";
+
+
+
 function convertCard(cardObject) {
   const { src = '', title = 'No Title', description = 'No Description' } = cardObject;
 
@@ -32,3 +52,5 @@ function convertCard(cardObject) {
 
   return cardString;
 }
+
+      
