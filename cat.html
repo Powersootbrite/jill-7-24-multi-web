@@ -20,6 +20,102 @@
     Location is on
     <button class="btn-close" data-bs-dismiss="alert"></button>
   </div>
+  
+   <script>
+      function display2(myMessage) {
+    
+    //STEP: Let it display the message.
+    //PSEUDO: Display myMessage
+    document.write(myMessage);
+  }
+
+  
+  
+  
+//STEP: Create command called ask. Let is accept a message.
+  //PSEUDO: Create command called ask with myMessage
+  function ask3(myMessage) {
+    
+    //STEP: Let it prompt the user with that message. Store it in userText.
+    //PSEUDO: userText = prompt(myMessage)
+    userText = prompt(myMessage);
+
+    //STEP: Convert userText to a number. Store in userNumber.
+    //PSEUDO: userNumber = Number(userText)
+    userNumber = Number(userText);
+
+    //STEP: Compare is userNumber equal to NaN. Store it in result.
+    //PSEUDO: isNaN = userNumber === NaN
+    isNotNumber = isNaN(userNumber);
+
+    //STEP: If result is "yes"
+    //PSEUDO: if isNaN
+    if (isNotNumber) {
+      
+      //STEP:  Send out userText.
+      //PSEUDO: return userText
+      return userText;
+
+      //STEP:  Otherwise
+      //PSEUDO: otherwise
+    } else {
+      
+      //STEP: Send out userNumber.
+      //PSEUDO: Return userNumber
+      return userNumber;
+    }
+  }
+  
+
+</script>
+<script>
+ myInput = ask3("enter your zip code.");
+ 
+    </script>
+      
+      
+    <script> 
+function runProblem1() {
+    /***********************************************
+    1. Create a loop that keeps going until the use inputs stop.
+    
+    STEPS:
+    1. Start a loop
+    2. Prompt the user for a word.
+    3. Store the response in userText.
+    4. Compare does userText match "stop".
+    5. Store in isDone.
+    6. While not isDone, repeat the loop.
+
+    PSEUDO CODE:
+    Start loop
+      userText = prompt("Enter a word.")
+      isDone = userText === stop
+    while not isDone, repeat
+    
+    **********************************************/
+    
+    //STEP: Start a loop
+    //PSEUDO: Start loop
+    do {
+      
+      //STEP: Prompt the user for a word. Store the response in userText.
+      //PSEUDO: userText = prompt("Enter a word.")
+      userText = prompt("Enter the word 'park'.");
+
+      //STEP: Compare does userText match "stop". Store in isDone.
+      //PSEUDO: isDone = userText === stop
+      isDone = userText === "park";
+
+      //STEP: While not isDone, repeat
+      //PSEUDO: While not isDone, repeat
+    } while (!isDone);
+  }
+
+  runProblem1();
+
+
+</script>  
   <body>
     <img
       class="border border-5"
@@ -36,7 +132,7 @@
       </nav>
     </header>
     <main>
-      <h1>
+      <h1 class="text-primary">
         NO SPOTS AVAILABLE IN YOUR LOCATION
       </h1>
     <footer style="text-align: center; color: indianred">
