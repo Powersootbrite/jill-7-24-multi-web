@@ -35,5 +35,20 @@ function convertCard(cardObject) {
 //         card3.title = "Parking Place at the greatest parking place! ";
 //         card3.description = "Paradise Parkers";
 
+// ANdrea said the is destruting the javascript objects. did not teach in class
 
+// function convertCard(cardObject) {
+//   const { src = '', title = 'No Title', description = 'No Description' } = cardObject;
 
+//   const cardString = `
+//     <div class="card">
+//       <img class="card-image-top" src="${src}">
+//       <div class="card-body">
+//         <h3 class="card-title">${title}</h3>
+//         <p>${description}</p>
+//       </div>
+//     </div>
+//   `;
+
+//   return cardString;
+// }
