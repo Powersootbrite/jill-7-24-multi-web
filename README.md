@@ -1,13 +1,12 @@
-git commit-echo "# jill-multi-page-wabhgfbcfntensjmtgzsazrsettykthk" >> README.md
+echo "# jill-multi-page-wabhgfbcfntensjmtgzsazrsettykthk" >> README.md
 git init
 git add README.md
-git config user.name "powersootbrite"
-git config user.email "sootpower3@gmail.com"
+git config user.name ""
+git config user.email ""
 
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Powersootbrite/jill-multi-page-wabhgfbcfntensjmtgzsazrsettykthk.git
-curl -sS https://webi.sh/gh | sh
 gh auth login
 git push -u origin main
 
@@ -21,7 +20,7 @@ git remote -v
 //CHANGE THE VALUE OF ORIGIN
 git remote set-url origin https://github.com/Powersootbrite/jill-multi-page-wabhgfbcfntensjmtgzsazrsettykthk.git
 
-//gitACTIUVATE OR INTIALIZE SOURCE CONTROL
+//Initiate source control
 git init
 
 //RENAMES CURRENT BRANCH TO MAIN
@@ -31,5 +30,5 @@ git add .
 git commit -m
 git push
 
-//PUSHES CHANGES TO THE ORIGINS MAIN BRANCH AND SAVES PARAMETERSgiy
+//PUSHES CHANGES TO THE ORIGINS MAIN BRANCH AND SAVES PARAMETERS
 git push -u origin main
